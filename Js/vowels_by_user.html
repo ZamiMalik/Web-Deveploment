@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input type="text" id="v1">
+   <input type="button" value="Check" max="1" onclick="fun()">
+    <script>
+        function fun(){
+       n= document.getElementById("v1").value
+        switch(n){
+            
+    case 'A':
+    case 'a':
+    case 'e':
+    case 'E':
+    case 'i':
+    case 'I':
+    case 'o':
+    case 'O':
+    case 'u':
+    case 'U':
+    document.write("vowel")
+     break
+     default:
+     document.write("consonant")
+     break
+    
+
+        }
+
+        }
+        
+        /*
+        output
+        document.write()
+        window.alert()
+        window.print()
+        console.log()
+
+        */
+    </script>
+</body>
+</html>
